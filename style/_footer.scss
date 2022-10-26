@@ -1,0 +1,106 @@
+.footer {
+    padding-top: 90px;
+    background-color: #EEEEEE;
+
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 95px;
+        border-bottom: 1px solid #000000;
+    }
+}
+
+.case__studies {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    gap: 25px;
+
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    &>.img__companies {
+        max-width: 80px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000000;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.bike__image {
+    max-width: 300px;
+}
+
+.nav__columns {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__column {
+    max-width: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+    &__title {
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+.footer__bottom__block {
+    display: flex;
+    min-height: 125px;
+    align-items: center;
+    justify-content: space-between;
+
+    & .small__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.bottom__logo__text {
+    max-width: 375px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo__text {
+    max-width: 90px;
+}
+
+.cop {
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
+}

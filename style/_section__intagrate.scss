@@ -1,0 +1,40 @@
+.section__intagrate {
+    background-color: #ffffff;
+    padding-top: 165px;
+    padding-bottom: 165px;
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &>.button.button--orange {
+            padding: 15px 20px;
+        }
+    }
+
+    &__title {
+        max-width: 791px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 75px;
+        text-align: center;
+
+    }
+
+
+    &__text {
+        max-width: 539px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    &__image {
+        max-width: 1023px;
+        margin: 25px 0;
+    }
+}

@@ -1,0 +1,49 @@
+$main-font: 'Graphik';
+// логики в этой функции нет) просто хотел хоть где-то ее впихнуть)
+html {
+    box-sizing: border-box;
+    font-family: $main-font;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    &.button--orange {
+        color: #ffffff;
+        background-color: #FF6336;
+        border: 1px solid #FF6336;
+    }
+
+    &.button--black {
+        color: #ffffff;
+        background-color: #000000;
+        border-color: #000000;
+    }
+}
+.small__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+.bottom__line {
+    border-bottom: 1px solid #000000;
+}

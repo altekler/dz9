@@ -1,0 +1,53 @@
+.section__rating {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #DABC98;
+
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+
+    &__image {
+        max-width: 176px;
+    }
+
+    &__title {
+        max-width: 461px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    &__stars {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        border-left: 1px solid #000000;
+        padding-left: 70px;
+    }
+
+
+    &__company {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.rating__company__image {
+    max-width: 150px;
+}
+
+
+.stars__image {
+    max-width: 130px;
+}

@@ -1,0 +1,791 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("../assets/fonts/GraphikLCG-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("../assets/fonts/GraphikLCG-Semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Graphik";
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  min-width: 120px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.button.button--orange {
+  color: #ffffff;
+  background-color: #FF6336;
+  border: 1px solid #FF6336;
+}
+.button.button--black {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.small__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.bottom__line {
+  border-bottom: 1px solid #000000;
+}
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #CCCCCC;
+}
+.header__flex {
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__navigation {
+  display: inline-flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__buttons {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.link__nav {
+  color: #000000;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.section__first {
+  background-color: #ffffff;
+  padding-top: 130px;
+  padding-bottom: 170px;
+}
+.section__first__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__first__info {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 550px;
+}
+.section__first__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+}
+.section__first__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+.section__first__buttons {
+  display: inline-flex;
+  justify-content: start;
+  gap: 10px;
+}
+.section__first__buttons > .button.button--orange {
+  padding: 20px 0;
+  min-width: 160px;
+}
+.section__first__buttons > .button {
+  padding: 20px 0;
+  min-width: 160px;
+}
+.section__first__image {
+  display: inline-flex;
+  max-width: 740px;
+}
+
+.section__companies {
+  background-color: #FF9C7D;
+  padding: 105px 0;
+}
+.section__companies__title {
+  max-width: 720px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+.section__companies__logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section__companies__img {
+  display: flex;
+  align-items: center;
+  max-width: 150%;
+  align-items: center;
+}
+
+.section__about {
+  background-color: #ffffff;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.section__about__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+.section__about__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__about__info {
+  display: inline-flex;
+  max-width: 520px;
+  flex-direction: column;
+  gap: 30px;
+}
+.section__about__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+.section__about__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.section__about__link {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.section__about__image {
+  display: inline-flex;
+  max-width: 632px;
+}
+
+.section__card {
+  background-color: #FFF8E4;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+.section__card__title {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 75px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 30%;
+}
+.card__image {
+  max-width: 160px;
+}
+.card__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+}
+.card__text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  max-width: 330px;
+}
+
+.section__teams {
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+
+.card__teams {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+}
+.card__teams__image {
+  max-width: 179px;
+  min-height: 201px;
+}
+.card__teams__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+}
+.card__teams__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__teams__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+
+.section__qotation {
+  background-color: #C9E8F2;
+  padding-top: 63px;
+  padding-bottom: 105px;
+}
+.section__qotation__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section__qotation__info {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 920px;
+  gap: 20px;
+}
+.section__qotation__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+.section__qotation__image {
+  max-width: 310px;
+}
+
+.section__rating {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #DABC98;
+}
+.section__rating__block {
+  display: flex;
+  justify-content: space-between;
+}
+.section__rating__info {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.section__rating__image {
+  max-width: 176px;
+}
+.section__rating__title {
+  max-width: 461px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+.section__rating__stars {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  border-left: 1px solid #000000;
+  padding-left: 70px;
+}
+.section__rating__company {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rating__company__image {
+  max-width: 150px;
+}
+
+.stars__image {
+  max-width: 130px;
+}
+
+.section__intagrate {
+  background-color: #ffffff;
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+.section__intagrate__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__intagrate__block > .button.button--orange {
+  padding: 15px 20px;
+}
+.section__intagrate__title {
+  max-width: 791px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+}
+.section__intagrate__text {
+  max-width: 539px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+.section__intagrate__image {
+  max-width: 1023px;
+  margin: 25px 0;
+}
+
+.section__localization {
+  background-color: #FF9C7D;
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+.section__localization__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer {
+  padding-top: 90px;
+  background-color: #EEEEEE;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 95px;
+  border-bottom: 1px solid #000000;
+}
+
+.case__studies {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  gap: 25px;
+}
+.case__studies__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+.case__studies > .img__companies {
+  max-width: 80px;
+}
+.case__studies__link {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.bike__image {
+  max-width: 300px;
+}
+
+.nav__columns {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__column {
+  max-width: 175px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.nav__column__title {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+.nav__column__link {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.footer__bottom__block {
+  display: flex;
+  min-height: 125px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__bottom__block .small__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.bottom__logo__text {
+  max-width: 375px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo__text {
+  max-width: 90px;
+}
+
+.cop {
+  display: flex;
+  flex-direction: column;
+  margin-right: 75px;
+}
+
+@media all and (max-width: 1024px) {
+  .header__flex {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .header__navigation {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    justify-content: center;
+  }
+  .logo {
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+  }
+  .link__nav {
+    font-size: 1.5em;
+  }
+  .section__first {
+    padding: 20px;
+  }
+  .section__first__block {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .section__first__image {
+    order: -1;
+    max-width: 370px;
+  }
+  .section__first__text {
+    text-align: justify;
+  }
+  .section__companies__logo {
+    justify-content: space-around;
+    row-gap: 20px;
+  }
+  .section__companies__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  .section__about__text {
+    text-align: justify;
+  }
+  .section__about__block {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .section__about__image {
+    max-width: 50%;
+    order: 2;
+  }
+  .section__about__flex {
+    gap: 100px;
+  }
+  .card {
+    min-width: 50%;
+  }
+  .section__teams {
+    padding-top: 75px;
+    padding-bottom: 90px;
+  }
+  .card__teams {
+    min-width: 100%;
+    align-items: center;
+  }
+  .card__teams__text {
+    text-align: justify;
+    max-width: 50%;
+  }
+  .section__qotation__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section__qotation__image {
+    order: -1;
+    margin-bottom: 20px;
+  }
+  .section__qotation__info {
+    max-width: 50%;
+    align-items: center;
+  }
+  .section__qotation__text {
+    text-align: justify;
+  }
+  .section__rating__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section__rating__info {
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+  }
+  .section__rating__stars {
+    padding: 0;
+    justify-content: center;
+    border-left: 0px;
+  }
+  .section__rating__company {
+    align-items: center;
+    min-width: 150px;
+  }
+  .section__localization__block > .card__teams__text {
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 75%;
+  }
+  .footer__nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .case__studies {
+    width: 50%;
+    align-items: center;
+  }
+  .case__studies > .section__companies__img {
+    max-width: 150px;
+  }
+  .case__studies > .card__teams__text {
+    max-width: 100%;
+    font-size: 1.5em;
+  }
+  .case__studies__link {
+    font-size: 1.5em;
+  }
+  .nav__columns {
+    width: auto;
+    flex-wrap: wrap;
+    row-gap: 100px;
+  }
+  .nav__column {
+    min-width: 50%;
+    gap: 25px;
+    align-items: center;
+  }
+  .nav__column__title {
+    font-size: 2em;
+  }
+  .nav__column__link {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  .footer__bottom__block {
+    justify-content: space-evenly;
+  }
+  .logo__text {
+    flex-shrink: 0;
+  }
+  .footer__bottom__block .small__text {
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+}
+@media all and (max-width: 767px) {
+  .container {
+    max-width: 340px;
+  }
+  .link__nav {
+    width: 40%;
+    text-align: center;
+  }
+  .header__navigation {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  .section__first__title {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .section__first__text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section__first__info {
+    align-items: center;
+  }
+  .section__companies__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .section__companies__logo {
+    row-gap: 30px;
+  }
+  .section__companies__img {
+    width: 50%;
+  }
+  .section__about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section__about__info {
+    align-items: center;
+  }
+  .section__about__title {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .section__about__text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section__about__image {
+    max-width: 80%;
+  }
+  .section__card {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section__card__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .card {
+    min-width: 100%;
+  }
+  .card__teams__text {
+    max-width: 100%;
+  }
+  .section__qotation__info {
+    max-width: 100%;
+  }
+  .section__qotation__text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section__rating__info {
+    flex-direction: column;
+  }
+  .section__rating__title {
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .section__rating__stars {
+    flex-direction: column;
+  }
+  .section__rating__company {
+    min-width: 100%;
+  }
+  .section__intagrate {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .section__intagrate__block {
+    gap: 20px;
+  }
+  .section__intagrate__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .section__intagrate__text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section__localization {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .case__studies {
+    width: 100%;
+  }
+  .nav__columns {
+    row-gap: 75px;
+    justify-content: center;
+  }
+  .nav__column {
+    gap: 20px;
+  }
+  .nav__column__link {
+    text-align: center;
+  }
+  .footer__bottom__block {
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .cop {
+    margin: 0;
+  }
+}/*# sourceMappingURL=main.css.map */

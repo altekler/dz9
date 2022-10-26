@@ -1,0 +1,163 @@
+@media all and (max-width: 767px) {
+    .container {
+        max-width: 340px;
+    }
+
+    .link__nav {
+        width: 40%;
+        text-align: center;
+    }
+
+    .header__navigation {
+        column-gap: 10px;
+    }
+
+    .section__first__title {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .section__first__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .section__first__info {
+        align-items: center;
+    }
+
+    .section__companies__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .section__companies__logo {
+        row-gap: 30px;
+    }
+
+    .section__companies__img {
+        width: 50%;
+    }
+
+    .section__about {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .section__about__info {
+        align-items: center;
+    }
+
+    .section__about__title {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .section__about__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .section__about__image {
+        max-width: 80%;
+    }
+
+    .section__card {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .section__card__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .card {
+        min-width: 100%;
+    }
+
+    .card__teams__text {
+        max-width: 100%;
+    }
+
+    .section__qotation__info {
+        max-width: 100%;
+    }
+
+    .section__qotation__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .section__rating__info {
+        flex-direction: column;
+    }
+
+    .section__rating__title {
+        text-align: center;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .section__rating__stars {
+        flex-direction: column;
+    }
+
+    .section__rating__company {
+        min-width: 100%;
+    }
+
+    .section__intagrate {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .section__intagrate__block {
+        gap: 20px;
+    }
+
+    .section__intagrate__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .section__intagrate__text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .section__localization {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .case__studies {
+        width: 100%;
+    }
+
+    .nav__columns {
+        row-gap: 75px;
+        justify-content: center;
+    }
+
+    .nav__column {
+        gap: 20px;
+    }
+
+    .nav__column__link {
+        text-align: center;
+    }
+
+    .footer__bottom__block {
+        flex-direction: column;
+        row-gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .cop {
+        margin: 0;
+    }
+}

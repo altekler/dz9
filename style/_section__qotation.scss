@@ -1,0 +1,31 @@
+.section__qotation {
+    background-color: #C9E8F2;
+    padding-top: 63px;
+    padding-bottom: 105px;
+
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__info {
+        display: inline-flex;
+        flex-direction: column;
+        max-width: 920px;
+        gap: 20px;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    &__image {
+        max-width: 310px;
+    }
+}

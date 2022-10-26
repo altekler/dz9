@@ -1,0 +1,32 @@
+.section__companies {
+    background-color: #FF9C7D;
+    padding: 105px 0;
+
+
+    &__title {
+        max-width: 720px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        max-width: 150%;
+        align-items: center;
+
+    }
+}
